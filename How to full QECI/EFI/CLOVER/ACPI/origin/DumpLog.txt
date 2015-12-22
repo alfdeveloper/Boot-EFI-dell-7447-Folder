@@ -1,0 +1,108 @@
+7:634  0:195  Found UEFI Acpi 2.0 RSDP at CAC1B000
+7:634  0:000  Saving ACPI tables from RSDP CAC1B000 to EFI\CLOVER\ACPI\origin ...
+7:634  0:000   CAC1B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:634  0:000    (Xsdt: CAC1B0A0, Rsdt: CAC1B028)
+7:634  0:000    CAC1B0A0: 'XSDT', 'QA09   ', Rev: 1, Len: 196
+7:634  0:000    CAC1B028: 'RSDT', 'QA09   ', Rev: 1, Len: 116
+7:634  0:000    Tables in Xsdt: 20
+7:634  0:000    0. CAC273C8: 'FACP', 'QA09', Rev: 5, Len: 268
+7:634  0:000        (Dsdt: CAC1B1F8, Facs: CB5BB080, XDsdt: CAC1B1F8, XFacs: 0)
+7:634  0:000        CAC1B1F8: 'DSDT', 'QA09', Rev: 2, Len: 49613
+7:635  0:001        CB5BB080: 'FACS', Ver: 2, Len: 64
+7:635  0:000    1. CAC274D8: 'APIC', 'QA09', Rev: 3, Len: 146
+7:635  0:000    2. CAC27570: 'FPDT', 'QA09', Rev: 1, Len: 68
+7:635  0:000    3. CAC275B8: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:635  0:000    4. CAC27660: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:635  0:000    5. CAC27888: 'SSDT', 'zpodd', Rev: 1, Len: 413
+7:635  0:000    6. CAC27A28: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+7:635  0:000    7. CAC27BA0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:635  0:000    8. CAC280E0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:635  0:000    9. CAC28BB8: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+7:635  0:000    10. CAC28FF0: 'MCFG', 'QA09', Rev: 1, Len: 60
+7:635  0:000    11. CAC29030: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+7:635  0:000    12. CAC34198: 'HPET', 'QA09', Rev: 1, Len: 56
+7:635  0:000    13. CAC341D0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:635  0:000    14. CAC344E8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+7:635  0:000    15. CAC37A48: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+7:635  0:000    16. CAC38FD8: 'BGRT', 'QA09', Rev: 0, Len: 56
+7:635  0:000    17. CAC39010: 'DMAR', 'HSW ', Rev: 1, Len: 184
+7:635  0:000    18. CAC390C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6464
+7:635  0:000    19. CAC3AA08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
+7:635  0:000    Tables in Rsdt: 20
+7:635  0:000    0. CAC1B170: 'FACP', 'QA09', Rev: 2, Len: 132
+7:635  0:000        (Dsdt: CAC1B1F8, Facs: CB5BB040)
+7:635  0:000        CAC1B1F8: 'DSDT', 'QA09', Rev: 2, Len: 49613
+7:636  0:001        CB5BB040: 'FACS', Ver: 0, Len: 64
+7:636  0:000    1. CAC274D8: 'APIC', 'QA09', Rev: 3, Len: 146
+7:636  0:000    2. CAC27570: 'FPDT', 'QA09', Rev: 1, Len: 68
+7:636  0:000    3. CAC275B8: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:636  0:000    4. CAC27660: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:636  0:000    5. CAC27888: 'SSDT', 'zpodd', Rev: 1, Len: 413
+7:636  0:000    6. CAC27A28: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+7:636  0:000    7. CAC27BA0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:636  0:000    8. CAC280E0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:636  0:000    9. CAC28BB8: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+7:636  0:000    10. CAC28FF0: 'MCFG', 'QA09', Rev: 1, Len: 60
+7:636  0:000    11. CAC29030: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+7:636  0:000    12. CAC34198: 'HPET', 'QA09', Rev: 1, Len: 56
+7:636  0:000    13. CAC341D0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:636  0:000    14. CAC344E8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+7:636  0:000    15. CAC37A48: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+7:636  0:000    16. CAC38FD8: 'BGRT', 'QA09', Rev: 0, Len: 56
+7:636  0:000    17. CAC39010: 'DMAR', 'HSW ', Rev: 1, Len: 184
+7:636  0:000    18. CAC390C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6464
+7:636  0:000    19. CAC3AA08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
+7:636  0:000  Found UEFI Acpi 1.0 RSDP at CAC1B000
+7:636  0:000  Printing ACPI tables from RSDP CAC1B000 ...
+7:636  0:000   CAC1B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+7:636  0:000    (Xsdt: CAC1B0A0, Rsdt: CAC1B028)
+7:636  0:000    CAC1B0A0: 'XSDT', 'QA09   ', Rev: 1, Len: 196
+7:636  0:000    CAC1B028: 'RSDT', 'QA09   ', Rev: 1, Len: 116
+7:636  0:000    Tables in Xsdt: 20
+7:636  0:000    0. CAC273C8: 'FACP', 'QA09', Rev: 5, Len: 268
+7:636  0:000        (Dsdt: CAC1B1F8, Facs: CB5BB080, XDsdt: CAC1B1F8, XFacs: 0)
+7:636  0:000        CAC1B1F8: 'DSDT', 'QA09', Rev: 2, Len: 49613
+7:637  0:001        CB5BB080: 'FACS', Ver: 2, Len: 64
+7:637  0:000    1. CAC274D8: 'APIC', 'QA09', Rev: 3, Len: 146
+7:637  0:000    2. CAC27570: 'FPDT', 'QA09', Rev: 1, Len: 68
+7:637  0:000    3. CAC275B8: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:637  0:000    4. CAC27660: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:637  0:000    5. CAC27888: 'SSDT', 'zpodd', Rev: 1, Len: 413
+7:637  0:000    6. CAC27A28: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+7:637  0:000    7. CAC27BA0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:637  0:000    8. CAC280E0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:637  0:000    9. CAC28BB8: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+7:637  0:000    10. CAC28FF0: 'MCFG', 'QA09', Rev: 1, Len: 60
+7:637  0:000    11. CAC29030: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+7:637  0:000    12. CAC34198: 'HPET', 'QA09', Rev: 1, Len: 56
+7:637  0:000    13. CAC341D0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:637  0:000    14. CAC344E8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+7:637  0:000    15. CAC37A48: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+7:637  0:000    16. CAC38FD8: 'BGRT', 'QA09', Rev: 0, Len: 56
+7:637  0:000    17. CAC39010: 'DMAR', 'HSW ', Rev: 1, Len: 184
+7:637  0:000    18. CAC390C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6464
+7:637  0:000    19. CAC3AA08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
+7:637  0:000    Tables in Rsdt: 20
+7:637  0:000    0. CAC1B170: 'FACP', 'QA09', Rev: 2, Len: 132
+7:637  0:000        (Dsdt: CAC1B1F8, Facs: CB5BB040)
+7:637  0:000        CAC1B1F8: 'DSDT', 'QA09', Rev: 2, Len: 49613
+7:638  0:001        CB5BB040: 'FACS', Ver: 0, Len: 64
+7:638  0:000    1. CAC274D8: 'APIC', 'QA09', Rev: 3, Len: 146
+7:638  0:000    2. CAC27570: 'FPDT', 'QA09', Rev: 1, Len: 68
+7:638  0:000    3. CAC275B8: 'ASF!', ' HCG', Rev: 32, Len: 165
+7:638  0:000    4. CAC27660: 'SSDT', 'sensrhub', Rev: 1, Len: 552
+7:638  0:000    5. CAC27888: 'SSDT', 'zpodd', Rev: 1, Len: 413
+7:638  0:000    6. CAC27A28: 'SLIC', 'QA09   ', Rev: 1, Len: 374
+7:638  0:000    7. CAC27BA0: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 1337
+7:638  0:000    8. CAC280E0: 'SSDT', 'CpuPm', Rev: 1, Len: 2776
+7:638  0:000    9. CAC28BB8: 'SSDT', 'CtdpB', Rev: 1, Len: 1078
+7:638  0:000    10. CAC28FF0: 'MCFG', 'QA09', Rev: 1, Len: 60
+7:638  0:000    11. CAC29030: 'SSDT', 'DptfTabl', Rev: 1, Len: 45412
+7:638  0:000    12. CAC34198: 'HPET', 'QA09', Rev: 1, Len: 56
+7:638  0:000    13. CAC341D0: 'SSDT', 'SataTabl', Rev: 1, Len: 789
+7:638  0:000    14. CAC344E8: 'SSDT', 'SaSsdt ', Rev: 1, Len: 13663
+7:638  0:000    15. CAC37A48: 'SSDT', 'SgPeg', Rev: 1, Len: 5520
+7:638  0:000    16. CAC38FD8: 'BGRT', 'QA09', Rev: 0, Len: 56
+7:638  0:000    17. CAC39010: 'DMAR', 'HSW ', Rev: 1, Len: 184
+7:638  0:000    18. CAC390C8: 'SSDT', 'OptTabl', Rev: 1, Len: 6464
+7:638  0:000    19. CAC3AA08: 'SSDT', 'IsctTabl', Rev: 1, Len: 1485
