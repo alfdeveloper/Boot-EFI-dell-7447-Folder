@@ -31,7 +31,7 @@
 	<key>Boot</key>
 	<dict>
 		<key>Arguments</key>
-		<string>nv_disable=1 kext-dev-mode=1 rootless=0</string>
+		<string>dart=0 npci=0x3000 nv_disable=1 -gux_defer_usb2 -gux_no_idle kext-dev-mode=1 rootless=0</string>
 		<key>Debug</key>
 		<false/>
 		<key>Legacy</key>
@@ -47,8 +47,6 @@
 	<dict>
 		<key>Audio</key>
 		<dict>
-			<key>Inject</key>
-			<string>3</string>
 			<key>ResetHDA</key>
 			<true/>
 		</dict>
@@ -164,16 +162,16 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Enable Trim on SSD</string>
+				<string>Still waiting for root 1</string>
 				<key>Find</key>
 				<data>
-				QVBQTEUgU1NE
+				60wAAOoD
 				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				AAAAAAAAAAAA
+				60wAAOgB
 				</data>
 			</dict>
 			<dict>
@@ -192,30 +190,16 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>Still waiting for root 1</string>
+				<string>Enable USB3 after wake for Intel 8</string>
 				<key>Find</key>
 				<data>
-				60wAAOoD
-				</data>
-				<key>Name</key>
-				<string>IOAHCIBlockStorage</string>
-				<key>Replace</key>
-				<data>
-				60wAAOgB
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>USB 3.0 Disable XHCI 1.0 check 10.9</string>
-				<key>Find</key>
-				<data>
-				Zj0AAQ==
+				xoDIAAAAAQ==
 				</data>
 				<key>Name</key>
 				<string>AppleUSBXHCI</string>
 				<key>Replace</key>
 				<data>
-				Zj0AAA==
+				xoDIAAAAAA==
 				</data>
 			</dict>
 			<dict>
@@ -248,6 +232,20 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
+				<string>USB 3.0 Disable XHCI 1.0 check 10.9</string>
+				<key>Find</key>
+				<data>
+				Zj0AAQ==
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				Zj0AAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Still waiting for root 2</string>
 				<key>Find</key>
 				<data>
@@ -258,6 +256,20 @@
 				<key>Replace</key>
 				<data>
 				v8gAAACQkJCQ
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>USB 3.0 Disable Intel USB3 controller check 10.9</string>
+				<key>Find</key>
+				<data>
+				9oDUAAAAgHU6
+				</data>
+				<key>Name</key>
+				<string>AppleUSBXHCI</string>
+				<key>Replace</key>
+				<data>
+				9oDUAAAAgOs6
 				</data>
 			</dict>
 			<dict>
@@ -290,40 +302,24 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>USB 3.0 Disable Intel USB3 controller check 10.9</string>
+				<string>Enable Trim on SSD</string>
 				<key>Find</key>
 				<data>
-				9oDUAAAAgHU6
+				QVBQTEUgU1NE
 				</data>
 				<key>Name</key>
-				<string>AppleUSBXHCI</string>
+				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
 				<data>
-				9oDUAAAAgOs6
-				</data>
-			</dict>
-			<dict>
-				<key>Comment</key>
-				<string>Enable USB3 after wake for Intel 8</string>
-				<key>Find</key>
-				<data>
-				xoDIAAAAAQ==
-				</data>
-				<key>Name</key>
-				<string>AppleUSBXHCI</string>
-				<key>Replace</key>
-				<data>
-				xoDIAAAAAA==
+				AAAAAAAAAAAA
 				</data>
 			</dict>
 		</array>
 	</dict>
 	<key>RtVariables</key>
 	<dict>
-		<key>BooterConfig</key>
-		<string>0x28</string>
 		<key>CsrActiveConfig</key>
-		<string>0x3</string>
+		<string>0x67</string>
 	</dict>
 	<key>SMBIOS</key>
 	<dict>
